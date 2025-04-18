@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head><tittle>WEBPROSINDIA</tittle></head>
+    <style>
+        body{
+            background-color: pink;
+        }
+        *{
+            
+            box-sizing: border-box;
+        }
+        #log1:hover{
+            cursor: pointer;
+            background-color: lightpink;
+        }
+        #log2:hover{
+            cursor: pointer;
+            background-color: lightgreen;
+        }
+        #log3:hover{
+            cursor: pointer;
+            background-color: lightcoral;
+        }
+        #block{
+            display: inline-block;
+        }
+        aside{
+           width: 33%;
+            float: left;
+            margin-left: 0px;
+            padding: 10 px;
+        }
+        section{
+           width: 33%;
+            float: left;
+            margin-left: 0px;
+            padding: 10 px;
+        }
+        article{
+           width: 33%;
+            float: left;
+            margin-left: 0px;
+            padding: 10 px;
+        }
+        .login1{
+            background-color: lightgoldenrodyellow;
+        }
+       h1{
+        text-align: center;
+        background-color: lightgreen;
+        color: darkviolet;
+       }
+       @media screen and (max-width:600px){
+            aside, section, article{
+                width:100%
+            }
+       }
+       h3 a:hover{
+                color: darkblue;
+            }
+    </style>
+    <body>
+        <h1><ul><u>***SVCN STUDENT LOGIN ***</u></ul></h1>
+        <img src="svcn logo.png" alt="logo" height="20%" width="100%">
+        <div id="block">
+            <aside>
+        <div class="form1">
+        <form style="padding: 5px;" action="index.php" method="post">
+        <div class="login1" style="border: 2px solid; width: 70%; margin-left: 10em; border-radius: 10px;">
+            <h4 style="text-align: center; width: 200px; padding: 15px; background-color: violet; margin-left: 20px; color: white; border-radius: 10px;">Employee Login</h4>
+            <label style="color: red; margin-left: 10px;" for="user name">user name:</label>
+            <input type="text" id="user name" placeholder="20XXXXXXXX" minlength="0" maxlength="10" required><br><br>
+            <label style="color: red; margin-left: 10px;" for="password">password  :</label>
+            <input type="password" id="password" placeholder="******" minlength="0" maxlength="6" required><br><br>
+            <button id="log1" style="border-radius: 5px; margin-left: 65%; font-size: medium; color: darkviolet; width: 30%;">Login</button><br><br>
+        </div>
+        </form>
+        </div></aside>
+        <section>
+        <div class="form2">
+        <form style="padding: 5px;" action="index.php" method="post">
+            <div class="login1" style="border: 2px solid; width: 70%; margin-left: 10em; border-radius: 10px;">
+                <h4 style="text-align: center; width: 200px; padding: 15px; background-color: orange; margin-left: 20px; color: white; border-radius: 10px;">Student Login</h4>
+                <label style="color: darkred; margin-left: 10px;" for="user name">user name:</label>
+                <input type="text" id="user name" placeholder="20XXXXXXXX" minlength="0" maxlength="10" required><br><br>
+                <label style="color: darkred; margin-left: 10px;" for="password">password  :</label>
+                <input type="password" id="password" placeholder="******" minlength="0" maxlength="6" required><br><br>
+                <button id="log2" style="border-radius: 5px; margin-left: 65%; font-size: medium; color: orange; width: 30%;">Login</button><br><br>
+            </div>
+        </form>
+        </div></section>
+        <article>
+        <div class="form3">
+            <form style="padding: 5px;" action="index.php" method="post">
+                <div class="login1" style="border: 2px solid; width: 70%; margin-left: 10em; border-radius: 10px;">
+                    <h4 style="text-align: center; width: 200px; padding: 15px; background-color: skyblue; margin-left: 20px; color: white; border-radius: 10px;">Parents Login</h4>
+                    <label style="color: red; margin-left: 10px;" for="user name">user name:</label>
+                    <input type="text" id="user name" placeholder="20XXXXXXXX" minlength="0" maxlength="10" required><br><br>
+                    <label style="color: red; margin-left: 10px;" for="password">password  :</label>
+                    <input type="password" id="password" placeholder="******" minlength="0" maxlength="6" required><br><br>
+                    <button id="log3" style="border-radius: 5px; margin-left: 65%; font-size: medium; color: skyblue; width: 30%;">Login</button><br><br>
+                </div>
+            </form>
+            </div></article>
+            </div>
+            <footer style="text-align: center;">
+                <h3>Click Here : <a href="project attach1.html" target="_blank" title="more details">more details</a></h3>
+            </footer>
+    </body>
+</html>
